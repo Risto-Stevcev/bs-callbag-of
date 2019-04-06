@@ -1,0 +1,28 @@
+{
+  "name": "bs-callbag-of",
+  "version": "0.1.0",
+  "sources": [{
+    "dir" : ".",
+    "files": ["CallbagOf.ml"]
+  }, {
+    "dir" : ".",
+    "type": "dev",
+    "files": ["Example.ml"]
+  }],
+  "package-specs": [{
+    "module": "commonjs",
+    "in-source": false
+  }, {
+    "module": "es6",
+    "in-source": false
+  }],
+  "suffix": ".bs.js",
+  "bs-dependencies": [
+    "@ristostevcev/bs-callbag",
+    "@ristostevcev/bs-callbag-basics"
+  ],
+  "warnings": {
+    "error" : "+101"
+  },
+  "refmt": 3
+}
