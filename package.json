@@ -5,7 +5,7 @@
     "clean": "bsb -clean-world",
     "build": "bsb -make-world",
     "watch": "bsb -make-world -w",
-    "test": "bats test.bats",
+    "test": "npm run build && bats test.bats",
     "example": "parcel example.html"
   },
   "keywords": [
